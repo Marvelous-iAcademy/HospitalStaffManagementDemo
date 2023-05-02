@@ -11,7 +11,7 @@ namespace HSMD.Domain.Models
     {
         public int BuildingNumber { get; set; }
         public string? StreetName { get; set; }
-        public string? AreaLocality { get; set; }
+        public string? Area_locality { get; set; }
         public string? LandMark { get; set; }
         public string? City { get; set; }
         public int Zip_PostalCode { get; set; }

@@ -1,4 +1,4 @@
-namespace HSMD.WebApi
+namespace HSMD.WebAPI
 {
     public class WeatherForecast
     {

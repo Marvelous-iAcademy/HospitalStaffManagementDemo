@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace HSMD.Domain.Common
 {
-    public abstract class AuditableBaseEntity
+    public class AuditableBaseEntity
     {
         public int Id { get; set; }  // Primary Key
         public string? CreatedBy { get; set; }
-        public DateTime DateCreated  { get; set;} = DateTime.Now;
+        public DateTime DateCreated { get; set; } = DateTime.Now;
+        public DateTime? DateModified { get; set; }
 
-        public string? ModifiedBy { get; set; }  
-        public DateTime? DateModified { get; set; }  
     }
 }
