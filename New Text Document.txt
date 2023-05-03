@@ -1,0 +1,10 @@
+The Relationship between Staff and Company
+ 
+A Staff has an ID and a Company also has an ID.
+Tho a Company has man Staffs but they can't work in many companys.
+an address ID (Staff Address) is created for staff (Staff Address)
+They are entities on their own but they are related
+
+
+
+
