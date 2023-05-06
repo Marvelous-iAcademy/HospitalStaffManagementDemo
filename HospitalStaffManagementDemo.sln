@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.WebAPI", "src\backend\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.Domain", "src\backend\HSMD.Domain\HSMD.Domain.csproj", "{DBA34BCB-B525-4BFE-A5ED-E3FE1544C8C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMD.Application", "src\backend\HSMD.Application\HSMD.Application.csproj", "{FFCE7E6D-8F82-4D4D-9201-C3587B02D3E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.Application", "src\backend\HSMD.Application\HSMD.Application.csproj", "{FFCE7E6D-8F82-4D4D-9201-C3587B02D3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "src\backend\ClassLibrary1\LoggerService.csproj", "{E2D5924F-7A2F-4E0C-80D0-DB575709AAE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{FFCE7E6D-8F82-4D4D-9201-C3587B02D3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFCE7E6D-8F82-4D4D-9201-C3587B02D3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFCE7E6D-8F82-4D4D-9201-C3587B02D3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D5924F-7A2F-4E0C-80D0-DB575709AAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D5924F-7A2F-4E0C-80D0-DB575709AAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D5924F-7A2F-4E0C-80D0-DB575709AAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D5924F-7A2F-4E0C-80D0-DB575709AAE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{3A7792DB-85E7-4A66-AD91-2B349C425888} = {AD678FFA-474C-4806-9E44-DD6425186B80}
 		{DBA34BCB-B525-4BFE-A5ED-E3FE1544C8C5} = {AD678FFA-474C-4806-9E44-DD6425186B80}
 		{FFCE7E6D-8F82-4D4D-9201-C3587B02D3E2} = {AD678FFA-474C-4806-9E44-DD6425186B80}
+		{E2D5924F-7A2F-4E0C-80D0-DB575709AAE6} = {AD678FFA-474C-4806-9E44-DD6425186B80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5DF9179-9468-4416-9E0D-C0856D7D8DFD}
